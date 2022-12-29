@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #f3aacf;
+    padding: 80px;
+    height: 60px;
+}
+.navbar-brand{
+    font-size: 7rem;
+    font-weight:900 !important;
+    color: black;
+    font-family: 'Lobster', sans-serif;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 30px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Kalam', cursive;
+    border: 2px solid rgb(15, 13, 14);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(12, 10, 11);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main{
+    background: url(../file/images/llnn.jpg)no-repeat;
+    background-size:cover;
+    height: 100vh;
+    background-position:center;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    font-style:normal;
+    color:rgb(49, 44, 48) ;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color:#eb6dac;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: rgb(228, 58, 109);
+    transition: 0.5s;
+
+}
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
